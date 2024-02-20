@@ -7,10 +7,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="./css/pokemon.css" />
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="newSession.jsp">View all Pokemons</a>
+	<div class="div-btn">
+		<a href="newSession.jsp" class="btn">View all Pokemons</a>
+	</div>
+	
 	<div>
 		<h2 id="pkname"></h2>
 		<ul id="pokemons"></ul>

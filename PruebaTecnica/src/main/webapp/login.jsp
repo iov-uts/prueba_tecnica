@@ -1,5 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,9 +12,9 @@
 	<div class="container">
 		<form action="home?new=n" method="post">
 			<label for="email">Email: </label>
-			<input type="email" name="email" id="email" />
+			<input type="email" name="email" id="email"  required/>
 			<label for="password">Password: </label>
-			<input type="password" name="password" id="password" />
+			<input type="password" name="password" id="password"  required/>
 			<input type="submit" value="submit" />
 		</form>
 	</div>

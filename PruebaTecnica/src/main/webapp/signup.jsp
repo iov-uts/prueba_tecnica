@@ -9,6 +9,7 @@ String redirect = request.getParameter("redirect");
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="./css/signup.css" />
 <title>Insert title here</title>
 </head>
 <body>
